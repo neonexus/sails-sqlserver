@@ -1,14 +1,14 @@
 {
   "name": "sails-sqlserver",
-  "version": "0.10.12",
-  "description": "Official SQL Server Adapter for Sails / Waterline",
+  "version": "0.10.13",
+  "description": "Unofficial SQL Server Adapter for Sails / Waterline",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/integration/runner -R spec -b"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cnect/sails-sqlserver.git"
+    "url": "git://github.com/neonexus/sails-sqlserver.git"
   },
   "keywords": [
     "cnect",
@@ -32,13 +32,14 @@
     "wxactly",
     "Seich",
     "tjwebb",
-    "jaredfromsubway"
+    "jaredfromsubway",
+    "neonexus"
   ],
   "license": "MIT",
   "dependencies": {
     "captains-log": "^0.11.11",
     "lodash": "^3.8.0",
-    "mssql": "^2.1.3",
+    "mssql": "^3.0.0",
     "underscore.string": "^3.0.0",
     "waterline-cursor": "0.0.5"
   },
